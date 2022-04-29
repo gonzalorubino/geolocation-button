@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Test GeoLocation</title>
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container mt-5 text-center d-flex justify-content-center">
+        <section class="geolocate-form">
+            <h3>Test GeoLocation</h3>
+
+            <form id="geolocate-form">
+                <button id="geobutton" type="button" class="btn btn-primary">FIND ME!</button>
+            </form>
+
+            <div id="coordinates" class="mt-5 mb-5"></div>
+            <div id="map"></div>
+        </section>
+    </div>
+
+    <!-- JS -->
+    <script src="js/geolocation.js"></script>
+</body>
+
+</html>
